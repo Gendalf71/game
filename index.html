@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze Variants</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ui">
+      <div class="row">
+        <span id="variantLabel"></span>
+      </div>
+      <div class="row">
+        <label>Seed:</label>
+        <input id="seedInput" type="text" />
+        <button id="seedButton">Generate</button>
+        <label>Preset:</label>
+        <select id="presetSelect"></select>
+      </div>
+    </div>
+    <canvas id="game"></canvas>
+    <pre id="testlog" class="hidden"></pre>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,511 @@
+{
+  "version": 1,
+  "grid": { "w": 101, "h": 57, "borderIncluded": true },
+  "hash": { "algo": "fnv1a32", "encoding": "hex8-lower" },
+  "pathMetric": { "neighbor": "4", "distance": "steps" },
+  "openMetric": { "domain": "all-cells" },
+  "cases": [
+    {
+      "id": "v1_pA_0x12345678",
+      "variant": 1,
+      "preset": "A",
+      "seed": 305419896,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0x31415926",
+      "variant": 1,
+      "preset": "A",
+      "seed": 826366246,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0x9e3779b9",
+      "variant": 1,
+      "preset": "A",
+      "seed": 2654435769,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0xcafebabe",
+      "variant": 1,
+      "preset": "A",
+      "seed": 3405691582,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0xdeadbeef",
+      "variant": 1,
+      "preset": "A",
+      "seed": 3735928559,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0x8badf00d",
+      "variant": 1,
+      "preset": "A",
+      "seed": 2343432205,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0xfeedface",
+      "variant": 1,
+      "preset": "A",
+      "seed": 4277009102,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0x0f0f0f0f",
+      "variant": 1,
+      "preset": "A",
+      "seed": 252645135,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0xa5a5a5a5",
+      "variant": 1,
+      "preset": "A",
+      "seed": 2779096485,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v1_pA_0x1badb002",
+      "variant": 1,
+      "preset": "A",
+      "seed": 464367618,
+      "params": {
+        "minRectSize": 7,
+        "doorMinSpacing": 5,
+        "doorCountRule": "depth 0-2 => 2 doors; depth>=3 => 1 door",
+        "wallCoord": "even",
+        "doorCoord": "odd",
+        "orientationBias": "if width>height P(V)=0.65; if height>width P(H)=0.65; else 0.5/0.5"
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+
+    {
+      "id": "v2_pA_0x27182818",
+      "variant": 2,
+      "preset": "A",
+      "seed": 655894552,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0x2468ace0",
+      "variant": 2,
+      "preset": "A",
+      "seed": 610839776,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0x13579bdf",
+      "variant": 2,
+      "preset": "A",
+      "seed": 324508639,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0xbadc0ffe",
+      "variant": 2,
+      "preset": "A",
+      "seed": 3134984190,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0xc001d00d",
+      "variant": 2,
+      "preset": "A",
+      "seed": 3221344269,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0xf00dface",
+      "variant": 2,
+      "preset": "A",
+      "seed": 4027448014,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0x7fffffff",
+      "variant": 2,
+      "preset": "A",
+      "seed": 2147483647,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0x80000000",
+      "variant": 2,
+      "preset": "A",
+      "seed": 2147483648,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0x00000001",
+      "variant": 2,
+      "preset": "A",
+      "seed": 1,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v2_pA_0xffffffff",
+      "variant": 2,
+      "preset": "A",
+      "seed": 4294967295,
+      "params": {
+        "macroGrid": [9, 5],
+        "blockSize": [11, 11],
+        "doorCountPerMacroEdge": 1,
+        "microGenerator": "dfs-perfect",
+        "microExtraLoopsProbability": 0.1,
+        "macroEdgesExpected": 44
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+
+    {
+      "id": "v3_pA_0x00c0ffee",
+      "variant": 3,
+      "preset": "A",
+      "seed": 12648430,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0x0ddc0ffe",
+      "variant": 3,
+      "preset": "A",
+      "seed": 232525822,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0xaa55aa55",
+      "variant": 3,
+      "preset": "A",
+      "seed": 2857740885,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0x55aa55aa",
+      "variant": 3,
+      "preset": "A",
+      "seed": 1437226410,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0x01234567",
+      "variant": 3,
+      "preset": "A",
+      "seed": 19088743,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0x89abcdef",
+      "variant": 3,
+      "preset": "A",
+      "seed": 2309737967,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0x10203040",
+      "variant": 3,
+      "preset": "A",
+      "seed": 270544960,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0x40404040",
+      "variant": 3,
+      "preset": "A",
+      "seed": 1077952576,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0xf0f0f0f0",
+      "variant": 3,
+      "preset": "A",
+      "seed": 4042322160,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    },
+    {
+      "id": "v3_pA_0xdeadc0de",
+      "variant": 3,
+      "preset": "A",
+      "seed": 3735929054,
+      "params": {
+        "noise": "fbm",
+        "octaves": 5,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "scale": 0.08,
+        "thresholdT": 0.05,
+        "keepLargestComponent": true,
+        "corridorRadius": 1,
+        "branchCount": 12,
+        "branchLenRule": "L=floor(10+60*(rand^2))",
+        "smoothingIterations": 0
+      },
+      "expected": { "start": null, "exit": null, "gridHash": null, "openPct": null, "pathLength": null }
+    }
+  ]
+}

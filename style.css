@@ -1,0 +1,63 @@
+:root {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #e2e8f0;
+  background: #0f172a;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.ui {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #e2e8f0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+input,
+button,
+select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+button {
+  cursor: pointer;
+}
+
+canvas {
+  background: #0b1020;
+  border: 1px solid #1f2937;
+}
+
+.hidden {
+  display: none;
+}
+
+#testlog {
+  width: min(920px, 90vw);
+  max-height: 80vh;
+  overflow: auto;
+  background: #111827;
+  color: #f8fafc;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #1f2937;
+  white-space: pre-wrap;
+}
